@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Minimal Kernel"
-date:   2019-04-18 22:27:13 +0200
+date:   2019-04-18 21:27:13 +0200
 categories: jekyll update
 ---
 As part of my Computer Science Bachelor at VU University Amsterdam, I have to do what is called a 'Bachelor Project'. Essentially, I just had to pick a computer science related topic and do a project on it, along with a written report and presentation.
@@ -17,5 +17,5 @@ The language the kernel is written in, is C.
 
 ## Table of Contents:
 1. [Bootstrapping](./bootstrapping.html)
-2. Printing to the Screen
+2. [Printing to the Screen](./printing-to-the-screen.html)
 3. Setting up the GDTs

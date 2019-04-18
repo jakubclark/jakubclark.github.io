@@ -40,12 +40,6 @@ The checksum is a way to check that everything has been compiled as expected. `-
 
 The relevant part of `boot.S` is [here](https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/boot.S#L8-L22).
 
-[boot.S]: https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/boot.S
-[kernel.ld]: https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/kernel.ld
-[kernel.c]: https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/kernel.c
-
-[grub]: https://www.gnu.org/software/grub/
-
 ### The Kernel Itself
 
 At the moment, the kernel program is very basic.
@@ -63,3 +57,9 @@ Printing formatted strings using [`printf()`](https://github.com/jakubclark/vu-k
 ### Conclusion
 
 In conclusion, the kernel at this point is very trivial. The GDT is set up, and some text is printed to the screen. In the next few blog posts, the GDT will be explained, as well as how text is actually printed to the screen, using VGA mode.
+
+[boot.S]: https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/boot.S
+[kernel.ld]: https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/kernel.ld
+[kernel.c]: https://github.com/jakubclark/vu-kernel/blob/9f63702b26cf6374b4ba99448203fcf84a7b9d1f/vu-kernel/kernel.c
+
+[grub]: https://www.gnu.org/software/grub/
